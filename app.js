@@ -14,7 +14,7 @@
 // console.log(fruits)
 
 let food1=['mango','popcorn','apple'];
-let food2=['kruska','mandarina','krompir'];
+let food2=['kruska','apple','krompir'];
 
 let proveriisti=[];
 for(let i=0; i<food1.length;i++)
@@ -22,6 +22,7 @@ for(let i=0; i<food1.length;i++)
     for (let j=0; j<food2.length;j++)
     {
         if(food1[i][j]==food2[i][j])
-        commonValueIndex.push=([i][j]);;
+       proveriisti.push(food1[i]);
     }
 }
+console.log(proveriisti);
